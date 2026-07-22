@@ -1,0 +1,51 @@
+# ---- Dependencies ----
+node_modules/
+
+# ---- Build output ----
+dist/
+build/
+*.tsbuildinfo
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- LinkedIn session state (SENSITIVE: auth cookies — NEVER commit) ----
+session/
+storage_state.json
+*.storage_state.json
+auth/
+
+# ---- Local scheduler DB (incl. SQLite WAL sidecars) ----
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.db
+data/
+
+# ---- Playwright ----
+test-results/
+playwright-report/
+playwright/.cache/
+.playwright/
+
+# ---- Logs ----
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Editor ----
+.vscode/
+.idea/
+
+# ---- Ralph spec state ----
+specs/.current-spec
+**/.progress.md
+**/.ralph-state.json

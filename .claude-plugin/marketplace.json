@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "linkedin-mcp",
+  "owner": {
+    "name": "HDHNezherParking-cum-Y638-Intl-Ltd",
+    "url": "https://github.com/HDHNezherParking-cum-Y638-Intl-Ltd"
+  },
+  "description": "LinkedIn account and Page management for Claude Code, via a local browser session.",
+  "plugins": [
+    {
+      "name": "linkedin",
+      "source": "./",
+      "description": "Post, schedule, read the feed, and read/reply to comments on your own LinkedIn account and the Pages you admin. Bundles a local stdio MCP server that drives your system Chrome under your existing logged-in session — no password is ever read or stored.",
+      "category": "productivity",
+      "tags": [
+        "linkedin",
+        "social-media",
+        "posting",
+        "scheduling",
+        "browser-automation"
+      ],
+      "homepage": "https://github.com/HDHNezherParking-cum-Y638-Intl-Ltd/linkedin-mcp"
+    }
+  ]
+}

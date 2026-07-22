@@ -1,0 +1,22 @@
+{
+  "name": "linkedin",
+  "displayName": "LinkedIn",
+  "version": "0.1.0",
+  "description": "Manage your own LinkedIn account and the Pages you admin from Claude — post, schedule, read the feed, read and reply to comments — by driving a real local Chrome under your existing logged-in session. Local-only browser automation, not the official LinkedIn API.",
+  "author": {
+    "name": "HDHNezherParking-cum-Y638-Intl-Ltd",
+    "url": "https://github.com/HDHNezherParking-cum-Y638-Intl-Ltd"
+  },
+  "homepage": "https://github.com/HDHNezherParking-cum-Y638-Intl-Ltd/linkedin-mcp",
+  "repository": "https://github.com/HDHNezherParking-cum-Y638-Intl-Ltd/linkedin-mcp",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "social-media",
+    "posting",
+    "scheduling",
+    "browser-automation",
+    "playwright",
+    "mcp"
+  ]
+}
